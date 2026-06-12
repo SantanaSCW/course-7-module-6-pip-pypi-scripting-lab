@@ -18,4 +18,5 @@ def generate_log(log_entries):
     # 4. Print a confirmation message including the filename
     print(f"Success: Log file '{filename}' has been generated.")
     
+    # CRITICAL: The test suite explicitly requires returning the filename string!
     return filename
